@@ -88,11 +88,6 @@
           "pattern": ":?query:",
           "name": "SalesOrderDeliveryList",
           "target": "SalesOrderDeliveryList"
-        },
-        {
-          "pattern": "SalesOrderDelivery({key}):?query:",
-          "name": "SalesOrderDeliveryObjectPage",
-          "target": "SalesOrderDeliveryObjectPage"
         }
       ],
       "targets": {
@@ -104,13 +99,6 @@
             "settings": {
               "contextPath": "/SalesOrderDelivery",
               "variantManagement": "Page",
-              "navigation": {
-                "SalesOrderDelivery": {
-                  "detail": {
-                    "route": "SalesOrderDeliveryObjectPage"
-                  }
-                }
-              },
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
