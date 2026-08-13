@@ -1,7 +1,7 @@
 {
   "_version": "1.86.0",
   "sap.app": {
-    "id": "zrap.t004.rapt004v4",
+    "id": "com.sap.rapt004v4",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -62,7 +62,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "zrap.t004.rapt004v4.i18n.i18n"
+          "bundleName": "com.sap.rapt004v4.i18n.i18n"
         }
       },
       "": {
