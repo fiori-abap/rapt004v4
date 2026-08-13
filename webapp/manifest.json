@@ -17,11 +17,10 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/sap/opu/odata4/sap/zui_rap_t004_o4/srvd/sap/zui_rap_t004_o4/0001/",
+        "uri": "/sap/opu/odata4/sap/zui_rap_t004_o4/srvd/sap/zui_rap_t004/0001/",
         "type": "OData",
         "settings": {
-          "annotations": [
-          ],
+          "annotations": [],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "4.0"
         }
@@ -119,17 +118,6 @@
                   }
                 }
               }
-            }
-          }
-        },
-        "SalesOrderDeliveryObjectPage": {
-          "type": "Component",
-          "id": "SalesOrderDeliveryObjectPage",
-          "name": "sap.fe.templates.ObjectPage",
-          "options": {
-            "settings": {
-              "editableHeaderContent": false,
-              "contextPath": "/SalesOrderDelivery"
             }
           }
         }
