@@ -16,19 +16,11 @@
       "toolsId": "48eed2c0-79ec-4694-b11d-526f2e35ee11"
     },
     "dataSources": {
-      "annotation": {
-        "type": "ODataAnnotation",
-        "uri": "annotations/annotation.xml",
-        "settings": {
-          "localUri": "annotations/annotation.xml"
-        }
-      },
       "mainService": {
         "uri": "/sap/opu/odata4/sap/zui_rap_t004_o4/srvd/sap/zui_rap_t004_o4/0001/",
         "type": "OData",
         "settings": {
           "annotations": [
-            "annotation"
           ],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "4.0"
